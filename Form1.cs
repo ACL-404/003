@@ -19,7 +19,8 @@ namespace _003
 
         private void bt01_Click(object sender, EventArgs e)
         {
-            text01.Text = "what!";
+            text01.Text = "who!";
+            text02.Text = "what!";
         }
     }
 }

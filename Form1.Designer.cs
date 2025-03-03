@@ -30,6 +30,7 @@
         {
             this.bt01 = new System.Windows.Forms.Button();
             this.text01 = new System.Windows.Forms.TextBox();
+            this.text02 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // bt01
@@ -52,12 +53,21 @@
             this.text01.Size = new System.Drawing.Size(184, 43);
             this.text01.TabIndex = 1;
             // 
+            // text02
+            // 
+            this.text02.Font = new System.Drawing.Font("新細明體", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.text02.Location = new System.Drawing.Point(401, 241);
+            this.text02.Name = "text02";
+            this.text02.Size = new System.Drawing.Size(184, 43);
+            this.text02.TabIndex = 2;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.text02);
             this.Controls.Add(this.text01);
             this.Controls.Add(this.bt01);
             this.Name = "Form1";
@@ -71,6 +81,7 @@
 
         private System.Windows.Forms.Button bt01;
         private System.Windows.Forms.TextBox text01;
+        private System.Windows.Forms.TextBox text02;
     }
 }
 
