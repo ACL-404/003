@@ -22,5 +22,12 @@ namespace _003
             text01.Text = "who!";
             text02.Text = "what!";
         }
+
+        private void bt02_Click(object sender, EventArgs e)
+        {
+            text01.Text = "蛤";
+            text02.Text = "蛤";
+        }
     }
 }
+

@@ -31,6 +31,7 @@
             this.bt01 = new System.Windows.Forms.Button();
             this.text01 = new System.Windows.Forms.TextBox();
             this.text02 = new System.Windows.Forms.TextBox();
+            this.bt02 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // bt01
@@ -61,12 +62,25 @@
             this.text02.Size = new System.Drawing.Size(184, 43);
             this.text02.TabIndex = 2;
             // 
+            // bt02
+            // 
+            this.bt02.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.bt02.Font = new System.Drawing.Font("新細明體", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.bt02.Location = new System.Drawing.Point(401, 62);
+            this.bt02.Name = "bt02";
+            this.bt02.Size = new System.Drawing.Size(134, 93);
+            this.bt02.TabIndex = 3;
+            this.bt02.Text = "02";
+            this.bt02.UseVisualStyleBackColor = false;
+            this.bt02.Click += new System.EventHandler(this.bt02_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.bt02);
             this.Controls.Add(this.text02);
             this.Controls.Add(this.text01);
             this.Controls.Add(this.bt01);
@@ -82,6 +96,7 @@
         private System.Windows.Forms.Button bt01;
         private System.Windows.Forms.TextBox text01;
         private System.Windows.Forms.TextBox text02;
+        private System.Windows.Forms.Button bt02;
     }
 }
 
