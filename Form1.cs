@@ -28,6 +28,12 @@ namespace _003
             text01.Text = "蛤";
             text02.Text = "蛤";
         }
+
+        private void bt03_Click(object sender, EventArgs e)
+        {
+            text01.Text = "404";
+            text02.Text = "404";
+        }
     }
 }
 
